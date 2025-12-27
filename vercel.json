@@ -1,11 +1,6 @@
 {
-  "builds": [
-    {
-      "src": "silence-booster/frontend/package.json",
-      "use": "@vercel/next"
-    }
-  ],
-  "installCommand": "cd silence-booster/frontend && npm install",
   "buildCommand": "cd silence-booster/frontend && npm run build",
-  "outputDirectory": "silence-booster/frontend/.next"
+  "outputDirectory": "silence-booster/frontend/.next",
+  "installCommand": "cd silence-booster/frontend && npm install",
+  "framework": "nextjs"
 }
